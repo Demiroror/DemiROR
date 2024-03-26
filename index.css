@@ -1,9 +1,9 @@
-
 body {
  background-image: url('ASSETS/bg.jpg');
             background-size: cover; 
             background-repeat: no-repeat;  
             background-position: center;
+            background-attachment: fixed;
             }
             #logoName h2 {
     color: white;
@@ -41,7 +41,7 @@ body {
     font-family: Hyperwave, sans-serif; 
     color: white;
 }
-#images img {
+/* #images img {
   justify-content: center;
   gap: 2rem; 
   object-fit: contain;
@@ -51,7 +51,101 @@ body {
   height: 3rem;
   width: 2.5rem;
   object-fit: contain;
-}
+   */
+   #images ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #images img[src="ASSETS/facebook.png"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem;
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/twitter.jpg"] {
+    justify-content: center;
+    width: 4rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/youtube.jpg"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/instagram.jpg"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/kofi.png"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/threads.jpg"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/tiktok.jpg"] {
+    justify-content: center;
+    width: 2.5rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/itch.io.png"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  } #images img[src="ASSETS/github.png"] {
+    justify-content: center;
+    width: 3.5rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/mail.jpg"] {
+    justify-content: center;
+    width: 3.5rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+  #images img[src="ASSETS/pinterest.jpg"] {
+    justify-content: center;
+    width: 3rem; /* Adjust the width of the icon */
+    height: 3rem; /* Adjust the height of the icon */
+    padding: 1rem;
+    gap: 2rem;
+    object-fit: contain;
+  }
+
 .hero-page {
     display: flex;
     flex-direction: column;
@@ -172,7 +266,7 @@ body {
     --glow-spread-color: rgba(191, 123, 255, 0.781);
     --enhanced-glow-color: rgb(231, 206, 255);
     --btn-color: rgb(100, 61, 136);
-    border: 1px solid var(--glow-color);
+    border: 0.5px solid var(--glow-color);
     padding: 1rem;
     color: var(--glow-color);
     font-size: 15px;
